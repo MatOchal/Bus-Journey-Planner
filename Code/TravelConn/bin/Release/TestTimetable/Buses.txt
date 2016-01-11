@@ -1,0 +1,9 @@
+id	BusName A	B	busstops
+1	Bus 1A	A	H	A B C D E F G H
+2	Bus 1B	H	A	H G F E D C B A
+3	Bus 2A	X	J	X Y C Z W E I J
+4	Bus 2B	J	X	J I E W Z C Y X
+5	Bus 3A	R	Q	R C O L P Q
+6	Bus 3B	Q	R	Q P L O C R
+7	Bus 4A	E	K	E F G M L K
+8	Bus 4B	K	E	K L M G F E

@@ -1,0 +1,83 @@
+﻿<UserControl x:Class="TravelConn.Controls.FeedbackTable"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Height="30">
+
+    <UserControl.Resources>
+        <Style TargetType="Grid">
+            <Setter Property="Background" Value="#FF2B6BA0"/>
+            <Setter Property="Margin" Value="0"/>
+        </Style>
+
+        <Style x:Key="FeedbackTextBlock" TargetType="TextBlock">
+            <Setter Property="FontStyle" Value="Italic" />
+            <Setter Property="FontWeight" Value="Normal" />
+            <Setter Property="FontFamily" Value="Comic Sans" />
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Foreground" Value="DarkBlue"/>
+            <Setter Property="Margin" Value="1,3,1,2"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+        </Style>
+
+        <Style x:Key="FeedbackButton" TargetType="Button">
+            <Setter Property="FontStyle" Value="Normal" />
+            <Setter Property="FontFamily" Value="Comic Sans" />
+            <Setter Property="FontSize" Value="10"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="Foreground" Value="DarkBlue"/>
+            <Setter Property="BorderThickness" Value="3"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="0,2,2,2"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Border" Background="WhiteSmoke">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="resting" TargetType="Grid">
+            <Setter Property="Background" Value="SteelBlue"/>
+        </Style>
+
+        <Style x:Key="selected" TargetType="Grid">
+            <Setter Property="Background" Value="#FF85B3D8"/>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid Margin="0" x:Name="FeedbackGrid" Style="{StaticResource resting}" MouseEnter="FeedbackGrid_MouseEnter" MouseLeave="FeedbackGrid_MouseLeave">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="0.9*"/>
+            <ColumnDefinition Width="0.9*"/>
+            <ColumnDefinition Width="0.9*"/>
+            <ColumnDefinition Width="0.9*"/>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="0.6*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock x:Name="dateTxbl" Text="Data" Grid.Column="0" Style="{StaticResource FeedbackTextBlock}"/>
+        <TextBlock x:Name="fromTxbl" Text="From" Grid.Column="1" Style="{StaticResource FeedbackTextBlock}"/>
+        <TextBlock x:Name="toTxbl" Text="To" Grid.Column="2" Style="{StaticResource FeedbackTextBlock}"/>
+        <TextBlock x:Name="departTimeTxbl" Text="Time departure" Grid.Column="3" Style="{StaticResource FeedbackTextBlock}"/>
+        <TextBlock x:Name="arriveTimeTxbl" Grid.Column="4" Text="Time arrival" Style="{StaticResource FeedbackTextBlock}"/>
+        <TextBlock x:Name="totalTimeTxbl" Grid.Column="5" Text="Total duration" Style="{StaticResource FeedbackTextBlock}"/>
+        <TextBlock x:Name="changesTxbl" Grid.Column="6" Text="Changes" Style="{StaticResource FeedbackTextBlock}"/>
+        <Button x:Name="expandBtn" Grid.Column="7" Content="more" Style="{StaticResource FeedbackButton}" Click="moreBtn_Click"/>
+        <Button x:Name="printBtn" Grid.Column="8" Content="print" Style="{StaticResource FeedbackButton}" Click="printBtn_Click"/>
+    </Grid>
+</UserControl>

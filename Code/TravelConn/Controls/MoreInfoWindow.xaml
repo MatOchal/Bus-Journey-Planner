@@ -1,0 +1,12 @@
+﻿<Window x:Class="TravelConn.MoreInfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MoreInfoWindow" Height="300" Width="600" ResizeMode="NoResize" WindowStyle="ToolWindow">
+    <Grid>
+        <FlowDocumentPageViewer x:Name="pageViewer" >
+            <FlowDocument>
+                <Section x:Name="textField"/>
+            </FlowDocument>
+        </FlowDocumentPageViewer>
+    </Grid>
+</Window>

@@ -1,0 +1,10 @@
+Day	dayCatID
+Monday	1
+Tuesday	1
+Wednesday	1
+Thursday	1
+Friday	2
+Saturday	2
+Sunday	3
+Bank Holiday	4
+No Services	5

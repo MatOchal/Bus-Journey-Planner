@@ -1,0 +1,136 @@
+c:\users\mateusz\documents\visual studio 2013\Projects\TravelConn\TravelConn\bin\Debug\TravelConn.exe.config
+c:\users\mateusz\documents\visual studio 2013\Projects\TravelConn\TravelConn\bin\Debug\TravelConn.exe
+c:\users\mateusz\documents\visual studio 2013\Projects\TravelConn\TravelConn\bin\Debug\TravelConn.pdb
+c:\users\mateusz\documents\visual studio 2013\Projects\TravelConn\TravelConn\obj\Debug\TravelConn.csprojResolveAssemblyReference.cache
+c:\users\mateusz\documents\visual studio 2013\Projects\TravelConn\TravelConn\obj\Debug\MainWindow.baml
+c:\users\mateusz\documents\visual studio 2013\Projects\TravelConn\TravelConn\obj\Debug\MainWindow.g.cs
+c:\users\mateusz\documents\visual studio 2013\Projects\TravelConn\TravelConn\obj\Debug\App.g.cs
+c:\users\mateusz\documents\visual studio 2013\Projects\TravelConn\TravelConn\obj\Debug\TravelConn_MarkupCompile.cache
+c:\users\mateusz\documents\visual studio 2013\Projects\TravelConn\TravelConn\obj\Debug\TravelConn.g.resources
+c:\users\mateusz\documents\visual studio 2013\Projects\TravelConn\TravelConn\obj\Debug\TravelConn.Properties.Resources.resources
+c:\users\mateusz\documents\visual studio 2013\Projects\TravelConn\TravelConn\obj\Debug\TravelConn.csproj.GenerateResource.Cache
+c:\users\mateusz\documents\visual studio 2013\Projects\TravelConn\TravelConn\obj\Debug\TravelConn.exe
+c:\users\mateusz\documents\visual studio 2013\Projects\TravelConn\TravelConn\obj\Debug\TravelConn.pdb
+C:\Users\Mateusz\Desktop\AllComp4\TravelConn\TravelConn\bin\Debug\TravelConn.exe.config
+C:\Users\Mateusz\Desktop\AllComp4\TravelConn\TravelConn\obj\Debug\TravelConn.exe
+C:\Users\Mateusz\Desktop\AllComp4\TravelConn\TravelConn\obj\Debug\TravelConn.pdb
+C:\Users\Mateusz\Desktop\AllComp4\TravelConn\TravelConn\bin\Debug\TravelConn.exe
+C:\Users\Mateusz\Desktop\AllComp4\TravelConn\TravelConn\bin\Debug\TravelConn.pdb
+C:\Users\Mateusz\Desktop\AllComp4\TravelConn\TravelConn\obj\Debug\TravelConn.csprojResolveAssemblyReference.cache
+C:\Users\Mateusz\Desktop\AllComp4\TravelConn\TravelConn\obj\Debug\MainWindow.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConn\TravelConn\obj\Debug\MainWindow.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConn\TravelConn\obj\Debug\App.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConn\TravelConn\obj\Debug\TravelConn_MarkupCompile.cache
+C:\Users\Mateusz\Desktop\AllComp4\TravelConn\TravelConn\obj\Debug\TravelConn.g.resources
+C:\Users\Mateusz\Desktop\AllComp4\TravelConn\TravelConn\obj\Debug\TravelConn.Properties.Resources.resources
+C:\Users\Mateusz\Desktop\AllComp4\TravelConn\TravelConn\obj\Debug\TravelConn.csproj.GenerateResource.Cache
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\bin\Debug\TravelConn.exe.config
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\obj\Debug\TravelConn.exe
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\obj\Debug\TravelConn.pdb
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\obj\Debug\TravelConn.csprojResolveAssemblyReference.cache
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\obj\Debug\MainWindow.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\obj\Debug\MainWindow.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\obj\Debug\App.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\obj\Debug\TravelConn_MarkupCompile.cache
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\obj\Debug\TravelConn.g.resources
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\obj\Debug\TravelConn.Properties.Resources.resources
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\obj\Debug\TravelConn.csproj.GenerateResource.Cache
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\bin\Debug\TravelConn.exe
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\bin\Debug\TravelConn.pdb
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\obj\Debug\Controls\FeedbackControl.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\obj\Debug\TravelConn_MarkupCompile.lref
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\obj\Debug\Controls\FeedbackControl.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\obj\Debug\Controls\BusStopControl.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\obj\Debug\Controls\BusStopControl.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\obj\Debug\Controls\LinkControl.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\obj\Debug\Controls\LinkControl.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\obj\Debug\MoreInfoWindow.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnArriveBefore\TravelConn\obj\Debug\MoreInfoWindow.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\bin\Debug\TravelConn.exe.config
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\TravelConn.exe
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\TravelConn.pdb
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\Controls\BusStopControl.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\Controls\FeedbackControl.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\Controls\FeedbackTable.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\Controls\LinkControl.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\Controls\BusStopControl.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\Controls\FeedbackControl.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\Controls\FeedbackTable.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\Controls\LinkControl.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\MainWindow.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\App.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\TravelConn_MarkupCompile.cache
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\TravelConn_MarkupCompile.lref
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\bin\Debug\TravelConn.exe
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\bin\Debug\TravelConn.pdb
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\MainWindow.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\TravelConn.g.resources
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\TravelConn.Properties.Resources.resources
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\TravelConn.csproj.GenerateResource.Cache
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\SplashWindow.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\SplashWindow.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\TravelConn.csprojResolveAssemblyReference.cache
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\Controls\MoreInfoWindow.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\Controls\MoreInfoWindow.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\Controls\Map.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\Controls\Map.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnII\TravelConn\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\bin\Debug\TravelConn.exe.config
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\TravelConn.exe
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\TravelConn.pdb
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\bin\Debug\TravelConn.exe
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\bin\Debug\TravelConn.pdb
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\TravelConn.csprojResolveAssemblyReference.cache
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\Controls\BusStopControl.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\Controls\FeedbackControl.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\Controls\FeedbackTable.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\Controls\LinkControl.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\Controls\Map.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\Controls\MoreInfoWindow.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\SplashWindow.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\Controls\BusStopControl.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\Controls\FeedbackControl.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\Controls\FeedbackTable.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\Controls\LinkControl.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\Controls\Map.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\MainWindow.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\Controls\MoreInfoWindow.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\SplashWindow.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\App.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\TravelConn_MarkupCompile.cache
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\TravelConn_MarkupCompile.lref
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\MainWindow.baml
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\TravelConn.g.resources
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\TravelConn.Properties.Resources.resources
+C:\Users\Mateusz\Desktop\AllComp4\TravelConnIII\TravelConn\obj\Debug\TravelConn.csproj.GenerateResource.Cache
+D:\Bus Journey Planner\Code\TravelConn\bin\Debug\TravelConn.exe.config
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\TravelConn.exe
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\TravelConn.pdb
+D:\Bus Journey Planner\Code\TravelConn\bin\Debug\TravelConn.exe
+D:\Bus Journey Planner\Code\TravelConn\bin\Debug\TravelConn.pdb
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\TravelConn.csprojResolveAssemblyReference.cache
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\Controls\BusStopControl.baml
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\Controls\FeedbackControl.baml
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\Controls\FeedbackTable.baml
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\Controls\LinkControl.baml
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\Controls\Map.baml
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\Controls\MoreInfoWindow.baml
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\SplashWindow.baml
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\Controls\BusStopControl.g.cs
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\Controls\FeedbackControl.g.cs
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\Controls\FeedbackTable.g.cs
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\Controls\LinkControl.g.cs
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\Controls\Map.g.cs
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\MainWindow.g.cs
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\Controls\MoreInfoWindow.g.cs
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\SplashWindow.g.cs
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\App.g.cs
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\TravelConn_MarkupCompile.cache
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\TravelConn_MarkupCompile.lref
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\MainWindow.baml
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\TravelConn.g.resources
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\TravelConn.Properties.Resources.resources
+D:\Bus Journey Planner\Code\TravelConn\obj\Debug\TravelConn.csproj.GenerateResource.Cache

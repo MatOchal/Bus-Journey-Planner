@@ -1,0 +1,149 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        x:Name="mainWindow" mc:Ignorable="d" x:Class="TravelConn.MainWindow"
+        xmlns:Controls="clr-namespace:TravelConn.Controls"
+    Title="TravelConn" Height="700" Width="1016" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" 
+>
+
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontStyle" Value="Normal" />
+            <Setter Property="FontWeight" Value="Normal" />
+            <Setter Property="FontFamily" Value="Comic Sans" />
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="#FF575666"/>
+            <Setter Property="Margin" Value="10,2,10,2"/>
+        </Style>
+
+        <Style x:Key="FeedbackTextBlock" TargetType="TextBlock">
+            <Setter Property="FontStyle" Value="Normal" />
+            <Setter Property="FontWeight" Value="Normal" />
+            <Setter Property="FontFamily" Value="Comic Sans" />
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Foreground" Value="WhiteSmoke"/>
+            <Setter Property="Background" Value="#FF575757"/>
+            <Setter Property="Margin" Value="1,3,1,2"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="FontStyle" Value="Normal" />
+            <Setter Property="FontFamily" Value="Comic Sans" />
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Height" Value="27"/>
+            <Setter Property="Foreground" Value="#FF575666"/>
+            <Setter Property="Margin" Value="2,3,2,1"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Border" Background="#FFB8D0E4">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="ComboBox">
+            <Setter Property="FontStyle" Value="Normal" />
+            <Setter Property="FontFamily" Value="Comic Sans" />
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Height" Value="27"/>
+            <Setter Property="Foreground" Value="#FF575666"/>
+            <Setter Property="Background" Value="WhiteSmoke"/>
+            <Setter Property="Margin" Value="10,2,10,2"/>
+        </Style>
+
+        <ContextMenu x:Key="ContextMenu">
+            <MenuItem Header="from here..." Name="startStop" Click="startStop_Click"/>
+            <MenuItem Header="to here..." Name ="endStop" Click="endStop_Click"/>
+        </ContextMenu>
+
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition/>
+            <RowDefinition Height="123"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="8*" />
+        </Grid.ColumnDefinitions>
+        <Button x:Name="aboutButton" Content="About" Grid.Column="0" Height="Auto"/>
+        <Button x:Name="helpButton" Content="Help" Grid.Column="1" Height="Auto"/>
+        <TextBlock x:Name="busStopNameTextBlock" Margin="2,3,2,1" Grid.Column="2" Grid.Row="0" TextAlignment="Center" Background="DarkSeaGreen" Foreground="DarkSlateGray" FontWeight="Bold" Text="Bus stop name" />
+        <StackPanel Grid.Column="2" Grid.Row="1" Grid.RowSpan="1" Background="DarkSeaGreen" Grid.ColumnSpan="1" Margin="2,2,2,2">
+            <Canvas x:Name="backCanvas" Height="495" Width="780" Margin="10,10,10,10" MouseMove="backCanvas_MouseMove" PreviewMouseLeftButtonDown="backCanvas_PreviewMouseLeftButtonDown"/>
+            <Controls:Map Height="Auto" Width="Auto" x:Name="map"/>
+            <Slider x:Name="zoomSize" Canvas.Top="463" Canvas.Left="690" Width="80" Minimum="0.7" Maximum="20" Ticks="10" Value="5" TickPlacement="BottomRight" ValueChanged="Slider_ValueChanged"/>
+
+        </StackPanel>
+        <StackPanel x:Name="searchPanel" Background="SteelBlue" Margin="2,2,2,2" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2" >
+            <TextBlock Text="Going from..." FontStyle="Italic" Foreground="LightBlue" FontSize="17" FontWeight="Bold"/>
+            <ComboBox x:Name="dropDownA" Text="From" SelectionChanged="dropDownA_SelectionChanged"/>
+            <TextBlock Text="To..." FontStyle="Italic" Foreground="LightBlue" FontSize="17" FontWeight="Bold"/>
+            <ComboBox x:Name="dropDownB" Text="To" SelectionChanged="dropDownB_SelectionChanged" />
+
+            <TextBlock Text="Time settings..." FontStyle="Italic" Foreground="LightBlue" FontWeight="Bold" FontSize="17"/>
+            <RadioButton Name="departafterRadBut" Content="Depart after" Margin="2" FontStyle="Italic" Foreground="LightBlue" FontSize="17" HorizontalAlignment="Center" IsChecked="True"/>
+            <RadioButton Name="arrivebeforeRadBut" Content="Arrive before" Margin="2" FontStyle="Italic" Foreground="LightBlue" FontSize="17" HorizontalAlignment="Center"/>
+            <StackPanel x:Name="timerPanel" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+                <ComboBox Name="hoursComboBox" Width="50" Margin ="3" HorizontalAlignment="Right" TextBlock.TextAlignment="Right"/>
+                <TextBlock Text=":" Height="27" FontWeight="Bold" Margin="1"/>
+                <ComboBox Name="minCombobox" Width="50" Margin ="3" />
+            </StackPanel>
+            <TextBlock Text="Bus change risk..." FontStyle="Italic" Foreground="LightBlue" FontWeight="Bold" FontSize="17"/>
+            <StackPanel x:Name="busChangeRiskPanel" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+                <StackPanel Orientation="Vertical">
+                    <Button x:Name="busRiskupBtn" Content=" up " FontStyle="Italic" Foreground="#FF575666" FontWeight="Bold" FontSize="10" Click="busRiskupBtn_Click"/>
+                    <Button x:Name="busRiskdownBtn" Content=" down " FontStyle="Italic" Foreground="#FF575666" FontWeight="Bold" FontSize="10" Click="busRiskdownBtn_Click"/>
+                </StackPanel>
+                <TextBlock x:Name="busChangeRiskTxbl" Text="1"  FontWeight="Bold" Height="27" Foreground="LightBlue"/>
+                <TextBlock Text="min" Height="27"  Margin="1" Foreground="LightBlue"/>
+            </StackPanel>
+            <Calendar x:Name="calendarControl" HorizontalAlignment="Center" VerticalAlignment="Top" />
+            <Button x:Name="calcButton" Content="Calculate" Margin="10,2,10,2" Click="calcButton_Click"/>
+        </StackPanel>
+
+        <StackPanel Background="#FFD69758" Grid.Column="2" Grid.Row="2" Margin="2">
+            <Grid Margin="2,0,1,0" x:Name="header">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="0.9*"/>
+                    <ColumnDefinition Width="0.9*"/>
+                    <ColumnDefinition Width="0.9*"/>
+                    <ColumnDefinition Width="0.9*"/>
+                    <ColumnDefinition Width="1.35*"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock x:Name="dateTxbl" Text="Date" Grid.Column="1" Style="{StaticResource FeedbackTextBlock}"/>
+                <TextBlock x:Name="fromTxbl" Text="From" Grid.Column="2" Style="{StaticResource FeedbackTextBlock}"/>
+                <TextBlock x:Name="toTxbl" Text="To" Grid.Column="3" Style="{StaticResource FeedbackTextBlock}"/>
+                <TextBlock x:Name="departTimeTxbl" Text="  Depart at  " Grid.Column="4" Style="{StaticResource FeedbackTextBlock}"/>
+                <TextBlock x:Name="arriveTimeTxbl" Grid.Column="5" Text="  Arrive at  " Style="{StaticResource FeedbackTextBlock}"/>
+                <TextBlock x:Name="totalTimeTxbl" Grid.Column="6" Text="  Duration  " Style="{StaticResource FeedbackTextBlock}"/>
+                <TextBlock x:Name="changesTxbl" Grid.Column="7" Text="  Changes  " Style="{StaticResource FeedbackTextBlock}"/>
+                <Button x:Name="clearButton" Background="#FFE48E12" BorderBrush="#FFE48E12" Content="Clear" Margin="2" Click="clearButton_Click" Height="Auto" Grid.Column="8" Grid.ColumnSpan="1"/>
+            </Grid>
+            <ListBox Name="FeedbackStackList" HorizontalContentAlignment="Stretch" Grid.Column="2" Grid.Row="2" Margin="-1,-1,1,-1" Background="Transparent" Grid.ColumnSpan="1" Grid.RowSpan="1" BorderBrush="Transparent" MaxHeight="97" ScrollViewer.VerticalScrollBarVisibility="Visible" SelectionChanged="FeedbackStackList_SelectionChanged"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,68 @@
+﻿<UserControl x:Class="TravelConn.Controls.BusStopControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="30" d:DesignWidth="30">
+
+    <UserControl.Resources>
+        
+        <Style x:Key="baseStyle" TargetType="Ellipse">
+            <Setter Property="Stroke">
+                <Setter.Value>
+                    <SolidColorBrush Color="#FF822337" Opacity="0.4"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="StrokeThickness" Value="7"/>
+        </Style>
+
+        <Style x:Key="buschange" BasedOn="{StaticResource baseStyle}" TargetType="Ellipse">
+            <Setter Property="Fill" Value="#FF49A4D8" />
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Fill" Value="#FF93C2DC"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="start" BasedOn="{StaticResource baseStyle}" TargetType="Ellipse">
+            <Setter Property="Fill" Value="#FF2FD136"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Fill" Value="#FF2F6D36"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="end" BasedOn="{StaticResource baseStyle}"  TargetType="Ellipse">
+            <Setter Property="Fill" Value="#FFFF4C4C"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Fill" Value="#FF9B4C4C"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="default" BasedOn="{StaticResource baseStyle}"  TargetType="Ellipse">
+            <Setter Property="Fill" Value="Gold"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Fill" Value="#FFFF7300"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="injourney"  BasedOn="{StaticResource baseStyle}"  TargetType="Ellipse">
+            <Setter Property="Fill" Value="#FFFF7300"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Fill" Value="#FFFF3A1B"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+<Grid>
+        <Ellipse Name="ellipseOnMap" Style="{StaticResource default}" Height="30" Width="30" />
+</Grid>
+</UserControl>

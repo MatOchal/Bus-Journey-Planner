@@ -1,0 +1,6 @@
+id	BusName A	B	busstops
+1	Bus 1A	A	D	A B C E D
+2	Bus 1B	D	A	D E C B A
+3	Bus 2A	A	F	A C D E F
+4	Bus 2B	F	A	F E D C A
+5	Bus 3A	A	F	A F
